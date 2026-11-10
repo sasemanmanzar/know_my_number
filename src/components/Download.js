@@ -1,3 +1,4 @@
+import download from "../assets/images/download.svg";
 
 function Download() {
   return (
@@ -45,8 +46,13 @@ function Download() {
             </a>
           </div>
 
-          <a href="/app.apk" className="direct-download-button" download>
+          {/* <a href="/app.apk" className="direct-download-button" download>
             دانلود مستقیم
+          </a> */}
+
+          <a href="/app.apk" className="direct-download-button" download>
+            <img src={download} alt="" />
+            <span>دانلود مستقیم  </span>
           </a>
 
         </div>
