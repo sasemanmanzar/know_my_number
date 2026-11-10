@@ -20,7 +20,7 @@ code {
   font-display: swap;
 }
 
-:root {
+/* :root {
   --primary: #35C6C0;
   --primary-dark: #22A9A5;
 
@@ -36,6 +36,49 @@ code {
   --muted: #788598;
 
   --border: #F0EBDD;
+} */
+
+/* :root {
+  --primary: #258FEA;
+  --primary-dark: #263B59;
+
+  --yellow: #FFD45A;
+  --pink: #FF947D;
+  --green: #A9D987;
+  --purple: #AFA0F5;
+
+  --background: #EAF6FF;
+  --background2: #FFFAF7;
+  --white: #FFFFFF;
+
+  --text: #34445A;
+  --muted: #788598;
+
+  --border: #F0EBDD;
+} */
+
+:root {
+  --primary: #168CEB;
+  --primary-dark: #286653;
+
+  --primary-hover: #1178D0;
+
+  --yellow: #FFCC36;
+  --pink: #FF866F;
+  --green: #91D66F;
+  --purple: #A18CF5;
+
+  --background: #E8F5FF;
+  --background2: #F5FAFF;
+  --background3: #FFE8E5;
+  --white: #FFFFFF;
+
+  --text: #34445A;
+  --muted: #788598;
+
+  --border: #F0EBDD;
+
+  --direct-download: #36B982;
 }
 
 * {

@@ -98,7 +98,7 @@
 
 .header-download:hover,
 .primary-button:hover {
-  background: var(--primary-dark);
+  background: var(--primary-hover);
   transform: translateY(-3px);
 }
 
@@ -125,8 +125,8 @@
 .hero-label {
   display: inline-block;
   padding: 7px 17px;
-  background: #E4F8F5;
-  color: #239C97;
+  background: var(--background2);
+  color: var(--primary);
   border-radius: 30px;
   font-size: 13px;
   font-weight: 700;
@@ -249,7 +249,7 @@
 
 .features-section {
   padding: 85px 5%;
-  background: #F5FAF8;
+  background: var(--background2);
 }
 
 .features-container {
@@ -361,7 +361,7 @@
 
 .privacy-section {
   padding: 70px 5%;
-  background: #EFF9F7;
+  background: var(--background2);
 }
 
 .privacy-content {
@@ -406,13 +406,13 @@
   max-width: 1050px;
   margin: auto;
   text-align: center;
-  background: #FFF1C9;
+  background: var(--background3);
   border-radius: 35px;
   padding: 65px 25px;
 }
 
 .download-container > span {
-  color: #A67B16;
+  color: var(--primary);
   font-weight: 700;
 }
 
@@ -428,18 +428,62 @@
 
 .download-buttons {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
   gap: 15px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-top: 28px;
 }
 
+.store-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 700px;
+}
 .store-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   background: var(--primary);
   color: white;
-  padding: 13px 25px;
+  padding: 13px 15px;
   border-radius: 30px;
   font-weight: 700;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.store-button:hover {
+  background: var(--primary-hover);
+  transform: translateY(-3px);
+}
+
+.direct-download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  box-sizing: border-box;
+  background: var(--direct-download);
+  color: white;
+  padding: 17px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.direct-download-button:hover {
+  background: #269F6F;
+  transform: translateY(-3px);
 }
 
 /* Footer */

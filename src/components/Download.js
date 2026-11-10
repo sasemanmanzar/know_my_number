@@ -17,7 +17,7 @@ function Download() {
           همین حالا برنامه رو دریافت کن.
         </p>
 
-        <div className="download-buttons">
+        {/* <div className="download-buttons">
 
           <a href="#" className="store-button">
             دانلود از کافه‌بازار
@@ -25,6 +25,28 @@ function Download() {
 
           <a href="#" className="store-button">
             دانلود از مایکت
+          </a>
+
+          <a href="/app.apk" className="direct-download-button" download>
+            دانلود مستقیم
+          </a>
+
+        </div> */}
+
+        <div className="download-buttons">
+
+          <div className="store-buttons">
+            <a href="..." className="store-button">
+              دانلود از کافه‌بازار
+            </a>
+
+            <a href="..." className="store-button">
+              دانلود از مایکت
+            </a>
+          </div>
+
+          <a href="/app.apk" className="direct-download-button" download>
+            دانلود مستقیم
           </a>
 
         </div>
