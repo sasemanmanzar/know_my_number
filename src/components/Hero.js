@@ -1,4 +1,4 @@
-import heroBear from "../assets/images/hero_bear.png";
+import heroBear from "../assets/images/hero_bear.webp";
 
 function Hero() {
   return (
@@ -9,7 +9,7 @@ function Hero() {
         <div className="hero-content">
 
           <span className="hero-label">
-            ✨ یک بازی شیرین برای کوچولوها
+            💞 یک بازی شیرین برای کوچولوها
           </span>
 
           <h1>
@@ -36,7 +36,7 @@ function Hero() {
           </div>
 
           <div className="hero-note">
-            💛 یادگیری در کنار بازی و سرگرمی
+            🩵 یادگیری در کنار بازی و سرگرمی
           </div>
 
         </div>

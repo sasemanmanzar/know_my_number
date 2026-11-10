@@ -1,21 +1,25 @@
+import phone from "../assets/images/phone.webp";
+import pan from "../assets/images/pan.webp";
+import train from "../assets/images/train.webp";
+import music from "../assets/images/music.webp";
 
 const features = [
   {
-    icon: "🎮",
+    icon: phone,
     title: "یادگیری با بازی",
     description:
       "کودکان با انجام بازی‌های جذاب، شماره تلفن والدین را تمرین می‌کنند.",
     color: "turquoise"
   },
   {
-    icon: "🎵",
+    icon: music,
     title: "موسیقی و سرگرمی",
     description:
       "آموزش همراه با موسیقی، صداها و انیمیشن‌های دوست‌داشتنی.",
     color: "yellow"
   },
   {
-    icon: "💛",
+    icon: pan,
     title: "مهارتی ارزشمند",
     description:
       "کمک به کودکان برای به خاطر سپردن شماره تلفن والدین.",
@@ -43,7 +47,7 @@ function Features() {
             key={index}
           >
             <div className="feature-icon">
-              {feature.icon}
+              <img src={feature.icon} alt="" />
             </div>
 
             <h3>{feature.title}</h3>

@@ -59,7 +59,7 @@ code {
 
 :root {
   --primary: #168CEB;
-  --primary-dark: #2457A6;
+  --primary-dark: #2874C8;
   /* 263B59 */
 
   --primary-hover: #1178D0;
@@ -71,13 +71,14 @@ code {
 
   --background: #E8F5FF;
   --background2: #F5FAFF;
-  --background3: #FFE8E5;
+  --background3: #fff9f9;
   --white: #FFFFFF;
 
-  --text: #304765;
-  --muted: #8495AB;
+  --text: #304968;
+  --muted: #8298B3;
 
-  --border: #F0EBDD;
+  /* --border: #F0EBDD; */
+  --border: #D6E8F8;
 
   --direct-download: #36B982;
 }

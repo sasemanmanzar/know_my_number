@@ -1,4 +1,4 @@
-import appIcon from "../assets/images/app-icon.png";
+import appIcon from "../assets/images/app-icon.webp";
 
 function Header() {
   return (

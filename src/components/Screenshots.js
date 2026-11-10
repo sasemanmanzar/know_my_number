@@ -1,6 +1,6 @@
-import gameScreen1 from "../assets/images/game-screen-1.png";
-import gameScreen2 from "../assets/images/game-screen-2.jpg";
-import gameScreen3 from "../assets/images/game-screen-3.jpg";
+import gameScreen1 from "../assets/images/game-screen-1.webp";
+import gameScreen2 from "../assets/images/game-screen-2.webp";
+import gameScreen3 from "../assets/images/game-screen-3.webp";
 
 function Screenshots() {
   const images = [

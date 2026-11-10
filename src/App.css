@@ -312,7 +312,7 @@
 }
 
 .screenshots-container {
-  max-width: 1000px;
+  max-width: 1300px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -342,19 +342,25 @@
 } */
 
 .screenshot-card {
-  background: #FFF4D9;
+  background: var(--purple);
   border-radius: 20px;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
 }
 
 .screenshot-card img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 14px;
-  object-fit: contain;
+  object-fit: cover;
+}
+
+.screenshot-card:hover {
+  background: var(--primary);
+  transform: translateY(-3px);
 }
 
 /* Privacy */
@@ -489,8 +495,8 @@
 /* Footer */
 
 .site-footer {
-  padding: 35px 5%;
-  background: #34445A;
+  padding: 20px 5%;
+  background: var(--primary);
   color: white;
 }
 

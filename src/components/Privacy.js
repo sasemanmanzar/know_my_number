@@ -1,3 +1,4 @@
+import lock from "../assets/images/verified_user.svg";
 
 function Privacy() {
   return (
@@ -5,7 +6,9 @@ function Privacy() {
 
       <div className="privacy-content">
 
-        <div className="privacy-icon">🔒</div>
+        <div className="privacy-icon">
+          <img src={lock} alt="آیکون قفل برای حریم خصوصی" />
+        </div>
 
         <div>
           <span>آرامش خاطر والدین</span>
@@ -18,9 +21,9 @@ function Privacy() {
             برای یادگیری کودکان است.
           </p>
 
-          <a href="/privacy.html">
+          {/* <a href="/privacy.html">
             مطالعه سیاست حریم خصوصی ←
-          </a>
+          </a> */}
         </div>
 
       </div>

@@ -5,7 +5,7 @@ function Download() {
 
       <div className="download-container">
 
-        <span>🎉 وقت بازی و یادگیریه!</span>
+        <span>💞 وقت بازی و یادگیریه!</span>
 
         <h2>
           کوچولوت رو برای یک ماجراجویی
@@ -36,11 +36,11 @@ function Download() {
         <div className="download-buttons">
 
           <div className="store-buttons">
-            <a href="..." className="store-button">
+            <a href="https://cafebazaar.ir/app/com.asemanmanzar.memorizingphonenumbers" className="store-button">
               دانلود از کافه‌بازار
             </a>
 
-            <a href="..." className="store-button">
+            <a href="https://myket.ir/app/com.asemanmanzar.memorizingphonenumbers" className="store-button">
               دانلود از مایکت
             </a>
           </div>
