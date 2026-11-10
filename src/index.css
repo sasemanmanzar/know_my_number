@@ -59,7 +59,8 @@ code {
 
 :root {
   --primary: #168CEB;
-  --primary-dark: #286653;
+  --primary-dark: #2457A6;
+  /* 263B59 */
 
   --primary-hover: #1178D0;
 
@@ -73,8 +74,8 @@ code {
   --background3: #FFE8E5;
   --white: #FFFFFF;
 
-  --text: #34445A;
-  --muted: #788598;
+  --text: #304765;
+  --muted: #8495AB;
 
   --border: #F0EBDD;
 
