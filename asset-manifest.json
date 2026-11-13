@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f7087fe.css",
-    "main.js": "/static/js/main.938bb2b1.js",
-    "static/js/453.7fb1f005.chunk.js": "/static/js/453.7fb1f005.chunk.js",
-    "static/media/hero_bear.webp": "/static/media/hero_bear.50a6b92aa5a2b5cacdc6.webp",
-    "static/media/Vazirmatn-VariableFont_wght.ttf": "/static/media/Vazirmatn-VariableFont_wght.34b44d659bd67d0dae0e.ttf",
-    "static/media/game-screen-3.webp": "/static/media/game-screen-3.47628ecd0a6bd252e382.webp",
-    "static/media/game-screen-1.webp": "/static/media/game-screen-1.dc3f92d127b988ac3af9.webp",
-    "static/media/train.webp": "/static/media/train.29da03cf4cc925380e33.webp",
-    "static/media/app-icon.webp": "/static/media/app-icon.935e1e907e092e444211.webp",
-    "static/media/phone.webp": "/static/media/phone.f74dc644db1d59ec94e2.webp",
-    "static/media/music.webp": "/static/media/music.b09da92f3a829f3b28db.webp",
-    "static/media/pan.webp": "/static/media/pan.4df3bacb0065f51b9da8.webp",
-    "static/media/game-screen-2.webp": "/static/media/game-screen-2.b6adcda1d2912dcb84e2.webp",
-    "index.html": "/index.html",
-    "static/media/verified_user.svg": "/static/media/verified_user.7aac1e4781af69846cbcdcda0688de11.svg",
-    "static/media/download.svg": "/static/media/download.27cbbe6ff6a541bd522324569b91a41e.svg",
-    "main.4f7087fe.css.map": "/static/css/main.4f7087fe.css.map",
-    "main.938bb2b1.js.map": "/static/js/main.938bb2b1.js.map",
-    "453.7fb1f005.chunk.js.map": "/static/js/453.7fb1f005.chunk.js.map"
+    "main.css": "/know_my_number/static/css/main.1d67d423.css",
+    "main.js": "/know_my_number/static/js/main.1c1daa79.js",
+    "static/js/453.7fb1f005.chunk.js": "/know_my_number/static/js/453.7fb1f005.chunk.js",
+    "static/media/hero_bear.webp": "/know_my_number/static/media/hero_bear.50a6b92aa5a2b5cacdc6.webp",
+    "static/media/Vazirmatn-VariableFont_wght.ttf": "/know_my_number/static/media/Vazirmatn-VariableFont_wght.34b44d659bd67d0dae0e.ttf",
+    "static/media/game-screen-3.webp": "/know_my_number/static/media/game-screen-3.47628ecd0a6bd252e382.webp",
+    "static/media/game-screen-1.webp": "/know_my_number/static/media/game-screen-1.dc3f92d127b988ac3af9.webp",
+    "static/media/train.webp": "/know_my_number/static/media/train.29da03cf4cc925380e33.webp",
+    "static/media/app-icon.webp": "/know_my_number/static/media/app-icon.935e1e907e092e444211.webp",
+    "static/media/phone.webp": "/know_my_number/static/media/phone.f74dc644db1d59ec94e2.webp",
+    "static/media/music.webp": "/know_my_number/static/media/music.b09da92f3a829f3b28db.webp",
+    "static/media/pan.webp": "/know_my_number/static/media/pan.4df3bacb0065f51b9da8.webp",
+    "static/media/game-screen-2.webp": "/know_my_number/static/media/game-screen-2.b6adcda1d2912dcb84e2.webp",
+    "index.html": "/know_my_number/index.html",
+    "static/media/verified_user.svg": "/know_my_number/static/media/verified_user.7aac1e4781af69846cbcdcda0688de11.svg",
+    "static/media/download.svg": "/know_my_number/static/media/download.27cbbe6ff6a541bd522324569b91a41e.svg",
+    "main.1d67d423.css.map": "/know_my_number/static/css/main.1d67d423.css.map",
+    "main.1c1daa79.js.map": "/know_my_number/static/js/main.1c1daa79.js.map",
+    "453.7fb1f005.chunk.js.map": "/know_my_number/static/js/453.7fb1f005.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7087fe.css",
-    "static/js/main.938bb2b1.js"
+    "static/css/main.1d67d423.css",
+    "static/js/main.1c1daa79.js"
   ]
 }
